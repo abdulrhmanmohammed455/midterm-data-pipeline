@@ -1,0 +1,9 @@
+# البيئة الافتراضية والكاش
+venv/
+__pycache__/
+.pytest_cache/
+.vscode/
+
+# ملفات البيانات الضخمة (تجاوز حد الرفع لـ GitHub)
+data/*.csv
+!data/.gitkeep
